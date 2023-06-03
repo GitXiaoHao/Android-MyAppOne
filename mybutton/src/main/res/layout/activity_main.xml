@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="下面的按钮默认大写"
+    android:gravity="center"
+    android:textColor="@color/black"
+    android:textSize="17sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello World"
+        android:textSize="17sp"/>
+   <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="下面的按钮英文保持原状"
+    android:gravity="center"
+    android:textColor="@color/black"
+    android:textSize="17sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello World"
+        android:textAllCaps="false"
+        android:textSize="17sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看点击事件"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="17sp"/>
+</LinearLayout>

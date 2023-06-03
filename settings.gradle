@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "MyAppOne"
+include ':app'
+include ':simplecontrol'
+include ':mybutton'
+include ':my-activity'
+include ':intermediatecontrols'
+include ':findpasswordproject'
+include ':datastorage'
+include ':dsp'

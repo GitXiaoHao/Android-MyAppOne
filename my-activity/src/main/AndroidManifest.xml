@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyAppOne">
+        <activity
+            android:name=".ActStartActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+        <activity
+            android:name=".data.MetaDataActivity"
+            android:exported="false">
+            <meta-data
+                android:name="weather"
+                android:value="晴天" />
+        </activity>
+        <activity
+            android:name=".back_data.ActResponseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".back_data.ActRequestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".data.ActReceiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".data.ActSendActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActionUriActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginSuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginInputActivity"
+            android:exported="true">
+        </activity>
+    </application>
+</manifest>

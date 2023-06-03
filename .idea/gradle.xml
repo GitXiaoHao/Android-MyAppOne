@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="H:/gradle/gradle-7.3.3-all/gradle-7.3.3" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/datastorage" />
+            <option value="$PROJECT_DIR$/dsp" />
+            <option value="$PROJECT_DIR$/findpasswordproject" />
+            <option value="$PROJECT_DIR$/intermediatecontrols" />
+            <option value="$PROJECT_DIR$/my-activity" />
+            <option value="$PROJECT_DIR$/mybutton" />
+            <option value="$PROJECT_DIR$/simplecontrol" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
